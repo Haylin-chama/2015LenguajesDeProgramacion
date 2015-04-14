@@ -7,7 +7,7 @@ class Polinomio2
         Polinomio2();
         ~Polinomio2();
         bool Validar(Polinomio2);
-        void LLenar();
+        void Llenar();
         void Sumar(Polinomio2, Polinomio2);
         void Multiplicar(Polinomio2, Polinomio2);
         void Derivar(Polinomio2);
