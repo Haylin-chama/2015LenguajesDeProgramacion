@@ -5,9 +5,16 @@ class Polinomio2
 {
     public:
         Polinomio2();
-        virtual ~Polinomio2();
-    protected:
+        ~Polinomio2();
+        bool Validar(Polinomio2);
+        void LLenar();
+        void Sumar(Polinomio2, Polinomio2);
+        void Multiplicar(Polinomio2, Polinomio2);
+        void Derivar(Polinomio2);
+        void Evaluar(Polinomio2);
+        void Mostrar();
     private:
-};
+        POLINOMIO2 poli;
 
 #endif // POLINOMIO2_H
+
