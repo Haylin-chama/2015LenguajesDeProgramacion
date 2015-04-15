@@ -1,14 +1,10 @@
 #include <iostream>
 #include "Polinomio2.h"
 
-//NO SE QUE ESTOY HACIENDOOOOOOOOO
 
 using namespace std;
 
 typedef float POLINOMIO2[10][10];
-
-
-
 
 
 void menu()
